@@ -71,8 +71,6 @@ or VS Code on your laptop.
 5. Open [00-hello-sedona-db.ipynb](00-hello-sedona-db.ipynb), run the first code
    cell, and check that a table of state boundaries appears. Then run the
    download cell to get the places dataset described below.
-6. Go to [Your Codespaces](https://github.com/codespaces), open the **…** menu
-   beside your environment, and select **Stop codespace**.
 
 ### Workshop data (both setups)
 

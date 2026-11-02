@@ -26,3 +26,6 @@ inspiration/
 # Include the starter data when publishing the participant repository.
 !data/tiger_state.parquet
 !data/tiger_county.parquet
+
+# Include the rendered slides in the participant repository.
+!slides/*.html

@@ -1,0 +1,28 @@
+.DS_Store
+
+# Quarto caches and generated sites (at any depth)
+.quarto/
+_site/
+_freeze/
+.jupyter_cache/
+
+# Rendered slides and their supporting files, including nested slide folders
+slides/**/*.html
+slides/**/*_files/
+slides/**/site_libs/
+
+# Local Python environments and notebook caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+.env
+data/*.parquet
+data/*.fgb
+data/*.gpkg
+
+inspiration/
+
+# Include the starter data when publishing the participant repository.
+!data/tiger_state.parquet
+!data/tiger_county.parquet
